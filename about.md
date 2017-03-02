@@ -1,2 +1,2 @@
-# this is cool
-write stuff here
+### About Me.
+Iam primarly intrested in Technology 
