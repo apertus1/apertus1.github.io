@@ -9,6 +9,7 @@
 (defun add (x y)
   (+ x y))
 ```
+why not working 
 {% for post in site.posts %}
   [{{ post.url }}]{{ post.title }}
   {{ post.excerpt }}
