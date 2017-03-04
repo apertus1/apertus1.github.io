@@ -11,6 +11,5 @@
 ```
 why not working 
 {% for post in site.posts %}
-  [{{ post.url }}]{{ post.title }}
-  {{ post.excerpt }}
+  [{{ post.url }}]{{ post.title}}
 {% endfor %}
