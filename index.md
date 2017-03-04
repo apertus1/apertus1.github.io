@@ -9,5 +9,7 @@
 (defun add (x y)
   (+ x y))
 ```
-*this is bold*
-/this is a list/
+{% for post in site.posts %}
+  [{{ post.url }}]{{ post.title }}
+  {{ post.excerpt }}
+{% endfor %}
